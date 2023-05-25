@@ -101,6 +101,7 @@ body{
     align-items: center;
     background-image: url(/images/pokefield.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 175px;
     width: 70%;
     overflow: hidden;
