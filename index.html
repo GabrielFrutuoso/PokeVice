@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Frutuoso">
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="images/pokefavicon.png">
+    <!--JS-->
+    <script src="JS/script.js" defer></script>
+
+    <title>PokeVice</title>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="abas" id="cima">
+            <div class="botao-slot-cima">
+                <div id="botao" onclick="abrirEfechar()"></div>
+            </div>
+        </div>
+
+        <div class="corpo" id="corpo">
+            <div class="nome"></div>
+
+            <div class="visor" id="visor"><img class="gif" src="" alt=""></div>
+
+            <form class="form">
+                <input type="text" name="pesquisar" class="pesquisar" id="pesquisar" autocomplete="off" required placeholder="ID ou nome do Pokemon">
+            </form>
+            
+        </div>
+
+        <div class="abas" id="baixo">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
