@@ -32,7 +32,7 @@ const renderPokemon = async (pokemon) => {const data = await fetchPokemon(pokemo
         pokeGIF.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         pokeSEARCH.value = '';
     }else{
-        pokeNOME.innerHTML= 'Pokemon não encontrado :('
+        pokeNOME.innerHTML= 'Pokemon não encontrado'
         pokeGIF.src=''
 }
 }
